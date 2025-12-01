@@ -1,5 +1,6 @@
 import React from "react";
-import Hello from "../../components/hello";
+
+import Hello from "../../src/components/hello";
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="text-5xl underline font-bold">
         Welcome to the Webpage!
       </div>
+
       <Hello />
     </main>
   );
