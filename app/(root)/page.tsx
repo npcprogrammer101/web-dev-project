@@ -1,6 +1,7 @@
 import React from "react";
 
 import Hello from "../../src/components/hello";
+import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
 
 const Home = () => {
   return (
@@ -9,7 +10,7 @@ const Home = () => {
         Welcome to the Webpage!
       </div>
 
-      <Hello />
+      <MobileThemeToggle />
     </main>
   );
 };
