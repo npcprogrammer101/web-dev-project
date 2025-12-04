@@ -6,7 +6,7 @@ import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
 const Home = () => {
   return (
     <main>
-      <div className="text-5xl underline font-bold">
+      <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
         Welcome to the Webpage!
       </div>
 
