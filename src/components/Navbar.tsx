@@ -7,9 +7,9 @@ import { MobileThemeToggle } from "./MobileThemeToggle";
 
 const navItems = [
   { name: "Home", href: "#homescreen" },
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Projects", href: "#projects" },
+  { name: "Data Structures", href: "#ds" },
+  { name: "Algorithms", href: "#algo" },
+  { name: "Tools", href: "#tools" },
   { name: "Contact", href: "#contact" },
 ];
 export const Navbar = () => {
@@ -45,7 +45,7 @@ export const Navbar = () => {
           className="text-xl font-bold text-primary flex items-center"
         >
           <span className="relative z-10">
-            <span className="text-glow text-foreground"> My </span> Portfolio
+            <span className="text-glow text-foreground"> DSA </span> Tutorial
           </span>
         </a>
 

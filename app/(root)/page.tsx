@@ -2,16 +2,21 @@ import React from "react";
 
 import Hello from "../../src/components/hello";
 import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
+import { ThemeToggle } from "@/src/components/ThemeToggle";
+import { Homescreen } from "@/src/components/Homescreen";
 
 const Home = () => {
   return (
-    <main>
-      <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
-        Welcome to the Webpage!
-      </div>
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      <ThemeToggle />
 
-      <MobileThemeToggle />
-    </main>
+      <Homescreen />
+      <main>
+        
+      </main>
+      
+      <footer></footer>
+    </div>
   );
 };
 
