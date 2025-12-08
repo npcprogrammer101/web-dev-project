@@ -4,11 +4,11 @@
   --color-border: hsl(var(--border));
   --color-background: hsl(var(--background));
   --color-foreground: hsl(var(--foreground));
-
   --color-primary: hsl(var(--primary));
   --color-primary-foreground: hsl(var(--primary-foreground));
 
   --color-card: hsl(var(--card));
+  --color-gradient-indigo: bg-linear-to-b from-indigo-400 to-indigo-500;
 
   --animate-float: float 6s ease-in-out infinite;
   --animate-pulse-subtle: pulse-subtle 4s ease-in-out infinite;
@@ -101,7 +101,7 @@
 
     --card: 0 0% 100%;
 
-    --primary: 250 47% 60%;
+    --primary: 30 50% 50%;
     --primary-foreground: 210 40% 98%;
 
     --border: 214 32% 91%;
@@ -113,7 +113,7 @@
 
     --card: 222 47% 8%;
 
-    --primary: 250 65% 65%;
+    --primary: 39 100% 50%;
     --primary-foreground: 213 31% 91%;
 
     --border: 217 33% 20%;
@@ -154,7 +154,6 @@
   }
 }
 
-
 @utility text-glow {
   @apply relative;
   text-shadow: 0 0 10px rgba(167, 139, 250, 0.5);
@@ -185,6 +184,10 @@
 @utility meteor {
   @apply absolute bg-linear-to-r from-white via-white to-transparent rounded-full;
   box-shadow: 0 0 10px 2px rgba(255, 255, 255, 0.3);
+}
+
+@utility g-b-indigo {
+  @apply absolute bg-linear-to-b from-indigo-400 to-indigo-500;
 }
 
 #root {

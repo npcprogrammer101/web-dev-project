@@ -1,6 +1,6 @@
 import React from "react";
 
-import Hello from "../../src/components/hello";
+import { Hero } from "../../src/components/Hero";
 import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
 import { ThemeToggle } from "@/src/components/ThemeToggle";
 import { Homescreen } from "@/src/components/Homescreen";
@@ -14,6 +14,7 @@ const Home = () => {
       <Homescreen />
       <main>
         <About />
+
       </main>
       
       <footer></footer>
