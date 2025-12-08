@@ -2,7 +2,12 @@ import React from 'react'
 
 const SortingAlgo = () => {
   return (
-    <div>SortingAlgo</div>
+    <div className='flex '>SortingAlgo
+
+
+    </div>
+
+
   )
 }
 

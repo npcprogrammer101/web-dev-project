@@ -4,6 +4,7 @@ import Hello from "../../src/components/hello";
 import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
 import { ThemeToggle } from "@/src/components/ThemeToggle";
 import { Homescreen } from "@/src/components/Homescreen";
+import { About } from "@/src/components/About";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
 
       <Homescreen />
       <main>
-        
+        <About />
       </main>
       
       <footer></footer>
