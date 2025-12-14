@@ -5,6 +5,7 @@ import { MobileThemeToggle } from "@/src/components/MobileThemeToggle";
 import { ThemeToggle } from "@/src/components/ThemeToggle";
 import { Homescreen } from "@/src/components/Homescreen";
 import { About } from "@/src/components/About";
+import { AlgoSection } from "@/src/components/AlgoSection";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       
       <main>
         <About />
+        <AlgoSection />
         
       </main>
       
