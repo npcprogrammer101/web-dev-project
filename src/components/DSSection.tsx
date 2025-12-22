@@ -8,70 +8,70 @@ import {
 const projects = [
   {
     id: 1,
-    title: "Binary Search",
+    title: "Array",
     description:
       "Binary search is an efficient search algorithm \
       that finds the position of a target value within \
        a sorted array by repeatedly dividing the search interval in half",
-    image: "/Algo/BinarySearch.png",
+    image: "/binarysearch.png",
     tags: ["Searching", "Divide and Conquer"],
     demoUrl: "/algo/binarysearch",
     githubUrl: "#",
   },
   {
     id: 2,
-    title: "Euclid's Algorithm",
+    title: "Linked List",
     description: "Placeholder",
-    image: "/Algo/Euclid.png",
+    image: "/Euclid.png",
     tags: ["React", "TailwindCSS", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 3,
-    title: "Sieve of Eratosthenes",
+    title: "Stack",
     description: "Placeholder",
-    image: "/Algo/",
+    image: "#",
     tags: ["React", "TailwindCSS", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 4,
-    title: "Kadane's Algorithm",
+    title: "Queue & Deque",
     description: "Placeholder",
-    image: "/Algo/",
+    image: "/projects/sakura.png",
     tags: ["Greedy", "Dynamic Programming"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 5,
-    title: "Placeholder",
+    title: "Tree",
     description: "Placeholder",
-    image: "/Algo/",
+    image: "/projects/Acheron.png",
     tags: ["React", "TailwindCSS", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
   {
     id: 6,
-    title: "Placeholder",
+    title: "Heap",
     description: "Placeholder",
-    image: "/Algo/",
+    image: "/projects/Arona.png",
     tags: ["React", "TailwindCSS", "Node.js"],
     demoUrl: "#",
     githubUrl: "#",
   },
 ];
 
-export const AlgoSection = () => {
+export const DSSection = () => {
   return (
-    <section id="algo" className="py-24 px-4 relative">
+    <section id="ds" className="py-24 px-4 relative">
       <div className="container mx-auto max-w-8xl">
         <h2 className="text-3xl md:text-4xl font-bold mb-4 text-center">
           {" "}
-          Featured <span className="text-primary"> Algorithms </span>
+          Featured <span className="text-primary"> Data Structures </span>
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
