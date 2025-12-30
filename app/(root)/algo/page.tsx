@@ -1,14 +1,9 @@
 import React from 'react'
 
-const SortingAlgo = () => {
+const Algorithms = () => {
   return (
-    <div className='flex '>SortingAlgo
-
-
-    </div>
-
-
+    <div>Algorithms</div>
   )
 }
 
-export default SortingAlgo
+export default Algorithms
